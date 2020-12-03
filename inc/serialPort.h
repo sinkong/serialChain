@@ -1,17 +1,17 @@
-#ifnde MYSERIALPORT_H
+#ifndef MYSERIALPORT_H
 #define MYSERIALPORT_H
-#include<QString>
 #include<QtSerialPort/QSerialPort>
 #include<QtSerialPort/QSerialPortInfo>
+#include<QDebug>
 
-class mySerial : public QSerialPort
+
+class serial : public QSerialPort
 {
 public:
-    mySerial();
+    explicit serial();
 protected:
-
+    void scanPorts();
 private:
-    QString m_PortName;
 
 };
 

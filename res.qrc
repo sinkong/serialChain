@@ -8,5 +8,11 @@
         <file alias="pause">img/pause.png</file>
         <file alias="connect">img/connect.png</file>
         <file alias="logo">img/app.png</file>
+        <file alias="redo">img/redo.png</file>
+        <file alias="undo">img/undo.png</file>
+        <file alias="newFile">img/newFile.png</file>
+        <file alias="exit">img/Exit.png</file>
+        <file alias="cut">img/cut.png</file>
+        <file alias="paste">img/paste.png</file>
     </qresource>
 </RCC>
